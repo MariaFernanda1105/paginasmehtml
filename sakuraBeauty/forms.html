@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Cadastro no site da Sakura Beauty:</title>
+       <link rel="icon" href="https://scontent.fpmw4-1.fna.fbcdn.net/v/t39.30808-6/300374706_490559643075400_1038551635433443809_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tszuhaBgmRgAX8yvj7j&_nc_ht=scontent.fpmw4-1.fna&oh=00_AfD9phCsme0Pngihr0scLpFsjI0OYqQMZMvRGH8vPtRbKA&oe=64574E2C">
+   </head>
+   <style>
+       h5{
+           color: black;
+           font-style: italic;
+           text-align: center;
+       }
+       form{
+           color: black ;
+          text-align: center;
+       }
+       nav a {
+            background-color:pink;
+            text-transform: uppercase;
+            color: #000000;
+            font-weight: bold;
+            font-size: 12px;
+            text-decoration: none;
+            padding: 10px;
+            
+          }
+          header{
+          background-image: url(https://res.cloudinary.com/dte7upwcr/image/upload/f_auto,w_1200/v1641942658/blog/blog2/nome-para-loja-de-maquiagem/nome-para-loja-de-maquiagem.jpg);
+          font-size: 25px;
+          text-align: center;
+          padding: 10%;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button{
+            background-color: white;
+            font-style: italic;
+            font-size: medium;
+            cursor: pointer;
+        }
+        input {
+       background-color: lightpink;
+       border-radius: 2px;
+       border-color: pink;
+        }
+        input:focus {
+        background-color: lightblue;
+        border: 3px solid #555;
+       
+        }
+        
+   </style>
+   <body>
+     <header>
+        <h5>Sejam bem-vindos, aqui se econtra o forms para cadastro na loja<br>
+     </header>
+       <nav id="nav-principal"> 
+        <a href="index2.html">Home</a>
+        <a href="maquiagens.html">Maquiagens</a>
+        <a href="sobrealoja.html">Sobre nós</a>
+    </nav>
+     
+   </h5>
+       <div>
+           <form  width: 1000px>
+            <div>
+                <label for="text">Como cadastro no site, digite o seu nome e a sua senha, respectivamente: </label><br>
+                <label for="usuário">Usuário: </label><br>
+                <input type="text" required><br>
+                <label for="password">Senha: </label><br>
+                <input type="password" required><br>
+
+
+            </div>
+               <div>
+                   <label for="text">Digite o seu CEP:</label><br>
+                   <input type="text" id="cep" required>
+               </div>
+               <div>
+                    <label for="text">Complemento do endereço, se desejar:</label><br>
+                    <input type="text" id="complemento-endereço" required>
+               </div>
+               <div>
+                <label for="radio" required>Escolha as marcas que deseja receber notificação quando cherem produtos novos:</label><br>
+                <input type="checkbox" id="marca">Missha<br>
+                <input type="checkbox" id="marca">AHC<br>
+                <input type="checkbox" id="marca">Laneige<br>
+                <input type="checkbox" id="marca">Dior<br>
+                <input type="checkbox" id="marca">Chanel
+            </div>
+              
+              
+
+
+               <div>
+                   <label for="radio" required>Por favor, informe a sua idade: </label><br>
+                   <input type="checkbox" id="idade" value="De 10 à 12 anos">Menor de 10 anos<br>
+                   <input type="checkbox" id="idade" value="De 10 à 12 anos">De 10 à 12 anos<br>
+                   <input type="checkbox" id="idade" value="De 13 à 15 anos">De 13 à 15 anos<br>
+                   <input type="checkbox" id="idade" value="De 16 à 18 anos">De 16 à 18 anos<br>
+                   <input type="checkbox" id="idade" value="De 19 à 21 anos">De 19 à 21 anos<br>
+                   <input type="checkbox" id="idade" value="De 23 à 25 anos">De 23 à 25 anos<br>
+                   <input type="checkbox" id="idade" value=" 26+ anos">26+ anos<br>
+                   <input type="checkbox" id="idade" value="De 50+ anos">De 50+ anos
+               </div>
+               <div>
+                   <label for="radio" required>Para melhro recomendarmos os produtos, por favor, informe o seu nível na maquiagem:</label><br>
+                   <input type="checkbox" id="nivel-aluno">Nunca fez<br>
+                   <input type="checkbox" id="nivel-aluno">Iniciante<br>
+                   <input type="checkbox" id="nivel-aluno">Intermediário<br>
+                   <input type="checkbox" id="nivel-aluno">Domina<br>
+                   <input type="checkbox" id="nivel-aluno">Profissional
+               </div>
+               <input type="reset">
+               <input type="button" onclick="alert('O foms foi enviado. Inicie as suas compras!')" value="Enviar"
+           </form>
+       </div>
+   </body>
+</html>

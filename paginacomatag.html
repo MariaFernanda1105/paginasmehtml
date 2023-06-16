@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+   <html>
+       <head>
+          <style>
+              body {
+   background-color: antiquewhite;
+}
+
+
+h5 {
+   color:maroon;
+}
+h4{
+    color: brown;
+}
+.button {
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+ p{
+    color:red;
+    text-decoration: overline underline white;
+    cursor: help;
+ }
+ 
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 50%;}
+.buttonx {cursor: not-allowed;}
+          </style>
+           <title>Button propriedades</title>
+       </head>
+           <body>
+                              
+              <h4>Nesse site utilizarems 5 propriedades para a tag "Button"</h4>
+
+
+              <h5>Utilizando a propriedades "autofocus"</h5>
+
+
+               <button type="button" autofocus onclick="alert('Esse é o uso do atributo autofocus')">Click me!</button>
+              
+               <h5>Utilizando a propriedades form </h5>
+               <form action="paginasubmit.html" method="get" id="nameform">
+                   <label for="pname">Primeiro nome:</label>
+                   <input type="text" id="pname" name="pname"><br><br>
+                   <label for="uname">Último nome:</label>
+                   <input type="text" id="uname" name="uname">
+               </form>
+                 <button type="submit" form="nameform" value="Submit">Submit</button>
+                 <p>Vale constar que ao clicar em "Submit" O usuário não será levado a uma página sem informação alguma!!</p>
+
+               <h5>Utilizando a propriedades disable </h5>
+
+
+               <button  type="button" class="buttonx"  diasable>Esse botão está impedido para interação</button>
+               
+
+
+               <h5>Utilizando a propriedade color </h5>
+               <button class="button">Verde</button>
+
+
+               <h5>Utilizando o atributo broder-radius</h5>
+               <button class="button button1">2px</button>
+               <button class="button button2">4px</button>
+               <button class="button button3">50%</button>
+
+
+
+
+
+
+
+
+           </body>
+</html>
